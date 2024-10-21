@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 150px);
+  gap: 10px;
+  justify-content: center;
+}
+
+.card-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.matched {
+  opacity: 0.5;
+}
+
+.score {
+  margin-bottom: 20px;
+}
